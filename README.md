@@ -27,14 +27,14 @@ A custom `torch.utils.data.Dataset` implementation loads each image, applies syn
 
 For inference, the saved checkpoint is restored and predictions are compared against ground truth using visualization utilities.
 
-## Learning Objectives
+## Objectives
 
-- Understand the localization dataset and annotation format
-- Build a custom dataset for image and bounding-box regression
-- Apply Albumentations for spatial augmentation with bbox support
-- Load a pretrained convolutional neural network using `timm`
-- Implement training and evaluation loops for localization
-- Predict and visualize bounding boxes on unseen images
+- Analyze the object localization dataset and bounding-box annotation format
+- Develop a custom PyTorch dataset for image and bounding-box regression
+- Apply Albumentations for geometry-aware data augmentation with bounding-box support
+- Utilize a pretrained convolutional neural network from `timm` for regression
+- Implement training and evaluation pipelines for bounding-box prediction
+- Perform inference and visualize predicted bounding boxes against ground truth
 
 ## Dataset
 
